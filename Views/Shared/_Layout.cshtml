@@ -1,4 +1,4 @@
-﻿@model dibeq_mvc.ViewModels.RandomMovieViewModel
+﻿@*@model dibeq_mvc.ViewModels.RandomMovieViewModel*@
 <!DOCTYPE html>
 <html>
 <head>
@@ -8,14 +8,13 @@
     @Styles.Render("~/Content/css")
     @Scripts.Render("~/bundles/modernizr")
 </head>
-<body>
-   
-    @Html.Partial("_NavBar", Model.Movie)  
+<body>    
+    @Html.Partial("_NavBar")
     <div class="container body-content">
         @RenderBody()
         <hr />
         <footer>
-            <p>&copy; @DateTime.Now.Year - My ASP.NET Application</p>
+            <p>&copy; @DateTime.Now.Year - dibeq-mvc</p>
         </footer>
     </div>
 

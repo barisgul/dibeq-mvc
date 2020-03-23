@@ -197,6 +197,7 @@
     <Compile Include="App_Start\BundleConfig.cs" />
     <Compile Include="App_Start\FilterConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
+    <Compile Include="Controllers\CustomersController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\MoviesController.cs" />
     <Compile Include="Global.asax.cs">
@@ -206,9 +207,30 @@
     <Compile Include="Migrations\202003221552069_InitialModel.designer.cs">
       <DependentUpon>202003221552069_InitialModel.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202003221830369_InitialModel1.cs" />
+    <Compile Include="Migrations\202003221830369_InitialModel1.designer.cs">
+      <DependentUpon>202003221830369_InitialModel1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202003222043112_AddIsSubscribedToNewsLetter.cs" />
+    <Compile Include="Migrations\202003222043112_AddIsSubscribedToNewsLetter.designer.cs">
+      <DependentUpon>202003222043112_AddIsSubscribedToNewsLetter.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202003222047047_AddMembershipType.cs" />
+    <Compile Include="Migrations\202003222047047_AddMembershipType.designer.cs">
+      <DependentUpon>202003222047047_AddMembershipType.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202003222048550_PopulateMembershipTypes.cs" />
+    <Compile Include="Migrations\202003222048550_PopulateMembershipTypes.designer.cs">
+      <DependentUpon>202003222048550_PopulateMembershipTypes.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202003222057000_ApplyAnnotationsToCustomerName.cs" />
+    <Compile Include="Migrations\202003222057000_ApplyAnnotationsToCustomerName.designer.cs">
+      <DependentUpon>202003222057000_ApplyAnnotationsToCustomerName.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\ApplicationUser.cs" />
     <Compile Include="Models\Customer.cs" />
+    <Compile Include="Models\MembershipType.cs" />
     <Compile Include="Models\Movie.cs" />
     <Compile Include="Models\ApplicationDbContext.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -253,6 +275,8 @@
     <Content Include="Views\Home\Index.cshtml" />
     <Content Include="Views\Movies\Random.cshtml" />
     <Content Include="Views\Shared\_NavBar.cshtml" />
+    <Content Include="Views\Customers\Index.cshtml" />
+    <Content Include="Views\Customers\Details.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
@@ -273,6 +297,21 @@
   <ItemGroup>
     <EmbeddedResource Include="Migrations\202003221552069_InitialModel.resx">
       <DependentUpon>202003221552069_InitialModel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202003221830369_InitialModel1.resx">
+      <DependentUpon>202003221830369_InitialModel1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202003222043112_AddIsSubscribedToNewsLetter.resx">
+      <DependentUpon>202003222043112_AddIsSubscribedToNewsLetter.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202003222047047_AddMembershipType.resx">
+      <DependentUpon>202003222047047_AddMembershipType.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202003222048550_PopulateMembershipTypes.resx">
+      <DependentUpon>202003222048550_PopulateMembershipTypes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202003222057000_ApplyAnnotationsToCustomerName.resx">
+      <DependentUpon>202003222057000_ApplyAnnotationsToCustomerName.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
