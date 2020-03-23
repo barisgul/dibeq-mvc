@@ -130,3 +130,4 @@ C:\Users\baris\source\repos\dibeq-mvc\obj\Debug\dibeq_mvc.Migrations.AddMembersh
 C:\Users\baris\source\repos\dibeq-mvc\obj\Debug\dibeq_mvc.Migrations.PopulateMembershipTypes.resources
 C:\Users\baris\source\repos\dibeq-mvc\obj\Debug\dibeq_mvc.Migrations.ApplyAnnotationsToCustomerName.resources
 C:\Users\baris\source\repos\dibeq-mvc\obj\Debug\dibeq_mvc.Migrations.RecorAddedToCustomers.resources
+C:\Users\baris\source\repos\dibeq-mvc\obj\Debug\dibeq_mvc.Migrations.BirthdateAddedToCustomer.resources

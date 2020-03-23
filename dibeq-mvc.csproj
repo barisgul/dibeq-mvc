@@ -231,6 +231,10 @@
     <Compile Include="Migrations\202003231323101_RecorAddedToCustomers.designer.cs">
       <DependentUpon>202003231323101_RecorAddedToCustomers.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202003231732470_BirthdateAddedToCustomer.cs" />
+    <Compile Include="Migrations\202003231732470_BirthdateAddedToCustomer.designer.cs">
+      <DependentUpon>202003231732470_BirthdateAddedToCustomer.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\ApplicationUser.cs" />
     <Compile Include="Models\Customer.cs" />
@@ -281,6 +285,7 @@
     <Content Include="Views\Shared\_NavBar.cshtml" />
     <Content Include="Views\Customers\Index.cshtml" />
     <Content Include="Views\Customers\Details.cshtml" />
+    <Content Include="Views\Customers\New.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
@@ -319,6 +324,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\202003231323101_RecorAddedToCustomers.resx">
       <DependentUpon>202003231323101_RecorAddedToCustomers.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202003231732470_BirthdateAddedToCustomer.resx">
+      <DependentUpon>202003231732470_BirthdateAddedToCustomer.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>

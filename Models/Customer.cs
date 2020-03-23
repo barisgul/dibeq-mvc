@@ -15,6 +15,10 @@ namespace dibeq_mvc.Models
         public string Name { get; set; }
         public bool IsSubscribedToNewsLetter { get; set; }
         public MembershipType MembershipType { get; set; }
-        public byte MembershipTypeId { get; set; } 
+        public byte MembershipTypeId { get; set; }
+
+        [Display(Name= "Date Of Birth")]
+        public DateTime? Birthdate { get; set; } 
+
     }
 }

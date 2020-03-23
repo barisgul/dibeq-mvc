@@ -19,6 +19,11 @@ namespace dibeq_mvc.Controllers
             _context.Dispose();
         }
 
+        public ActionResult New()
+        {
+            return View();
+        }
+
         public ViewResult Index()
         {
             var customers = _context.Customers.Include(c =>c.MembershipType).ToList();
@@ -34,13 +39,13 @@ namespace dibeq_mvc.Controllers
             return View(customer);
         }
 
-        private IEnumerable<Customer> GetCustomers()
-        {
-            return new List<Customer>
-            {
-                new Customer{Id =1, Name = "John Smith"},
-                new Customer{Id =2, Name = "Marry Williams"}
-            };
-        }
+        //private IEnumerable<Customer> GetCustomers()
+        //{
+        //    return new List<Customer>
+        //    {
+        //        new Customer{Id =1, Name = "John Smith"},
+        //        new Customer{Id =2, Name = "Marry Williams"}
+        //    };
+        //}
     }
 }
