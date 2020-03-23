@@ -227,6 +227,10 @@
     <Compile Include="Migrations\202003222057000_ApplyAnnotationsToCustomerName.designer.cs">
       <DependentUpon>202003222057000_ApplyAnnotationsToCustomerName.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202003231323101_RecorAddedToCustomers.cs" />
+    <Compile Include="Migrations\202003231323101_RecorAddedToCustomers.designer.cs">
+      <DependentUpon>202003231323101_RecorAddedToCustomers.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\ApplicationUser.cs" />
     <Compile Include="Models\Customer.cs" />
@@ -312,6 +316,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\202003222057000_ApplyAnnotationsToCustomerName.resx">
       <DependentUpon>202003222057000_ApplyAnnotationsToCustomerName.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202003231323101_RecorAddedToCustomers.resx">
+      <DependentUpon>202003231323101_RecorAddedToCustomers.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>

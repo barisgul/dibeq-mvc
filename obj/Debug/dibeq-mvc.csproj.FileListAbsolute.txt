@@ -129,3 +129,4 @@ C:\Users\baris\source\repos\dibeq-mvc\obj\Debug\dibeq_mvc.Migrations.AddIsSubscr
 C:\Users\baris\source\repos\dibeq-mvc\obj\Debug\dibeq_mvc.Migrations.AddMembershipType.resources
 C:\Users\baris\source\repos\dibeq-mvc\obj\Debug\dibeq_mvc.Migrations.PopulateMembershipTypes.resources
 C:\Users\baris\source\repos\dibeq-mvc\obj\Debug\dibeq_mvc.Migrations.ApplyAnnotationsToCustomerName.resources
+C:\Users\baris\source\repos\dibeq-mvc\obj\Debug\dibeq_mvc.Migrations.RecorAddedToCustomers.resources
