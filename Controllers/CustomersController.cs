@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web.Mvc;
 using System.Data.Entity;
+using System.Data.Entity.Validation;
 using dibeq_mvc.ViewModels;
 
 namespace dibeq_mvc.Controllers
@@ -33,6 +34,16 @@ namespace dibeq_mvc.Controllers
         [HttpPost]
         public ActionResult Save(Customer customer) 
         {
+            if (!ModelState.IsValid)
+            {
+                var viewModel = new CustomerFormViewModel
+                {
+                    Customer = customer,
+                    MembershipTypes = _context.MembershipTypes.ToList()
+                };
+                return View("CustomerForm",viewModel);
+            }
+
             if (customer == null)
                 _context.Customers.Add(customer);
             else
@@ -43,9 +54,16 @@ namespace dibeq_mvc.Controllers
                 customerInDb.Birthdate = customer.Birthdate;
                 customerInDb.MembershipTypeId = customer.MembershipTypeId;
                 customerInDb.IsSubscribedToNewsLetter = customer.IsSubscribedToNewsLetter;
-            }            
-            _context.SaveChanges(); //db'ye kaydeder
+            }
+            try
+            {
+                _context.SaveChanges(); //db'ye kaydeder
 
+            }
+            catch (DbEntityValidationException exception)
+            {
+                throw exception;
+            }
             return RedirectToAction("Index", "Customers");
         }
 
