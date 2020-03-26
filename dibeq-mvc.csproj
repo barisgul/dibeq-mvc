@@ -243,6 +243,10 @@
     <Compile Include="Migrations\202003231753102_NewPorpsToMembershipTypes.Designer.cs">
       <DependentUpon>202003231753102_NewPorpsToMembershipTypes.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202003262011003_empty.cs" />
+    <Compile Include="Migrations\202003262011003_empty.designer.cs">
+      <DependentUpon>202003262011003_empty.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\ApplicationUser.cs" />
     <Compile Include="Models\Customer.cs" />
@@ -345,6 +349,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\202003231753102_NewPorpsToMembershipTypes.resx">
       <DependentUpon>202003231753102_NewPorpsToMembershipTypes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202003262011003_empty.resx">
+      <DependentUpon>202003262011003_empty.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>

@@ -118,11 +118,7 @@ C:\Users\baris\source\repos\dibeq-mvc\bin\System.Web.WebPages.Razor.xml
 C:\Users\baris\source\repos\dibeq-mvc\bin\Newtonsoft.Json.xml
 C:\Users\baris\source\repos\dibeq-mvc\bin\Antlr3.Runtime.pdb
 C:\Users\baris\source\repos\dibeq-mvc\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
-C:\Users\baris\source\repos\dibeq-mvc\obj\Debug\dibeq-mvc.csproj.CopyComplete
-C:\Users\baris\source\repos\dibeq-mvc\obj\Debug\dibeq-mvc.dll
-C:\Users\baris\source\repos\dibeq-mvc\obj\Debug\dibeq-mvc.pdb
 C:\Users\baris\source\repos\dibeq-mvc\obj\Debug\dibeq-mvc.csprojAssemblyReference.cache
-C:\Users\baris\source\repos\dibeq-mvc\obj\Debug\dibeq-mvc.csproj.GenerateResource.cache
 C:\Users\baris\source\repos\dibeq-mvc\obj\Debug\dibeq_mvc.Migrations.InitialModel.resources
 C:\Users\baris\source\repos\dibeq-mvc\obj\Debug\dibeq_mvc.Migrations.InitialModel1.resources
 C:\Users\baris\source\repos\dibeq-mvc\obj\Debug\dibeq_mvc.Migrations.AddIsSubscribedToNewsLetter.resources
@@ -133,3 +129,8 @@ C:\Users\baris\source\repos\dibeq-mvc\obj\Debug\dibeq_mvc.Migrations.RecorAddedT
 C:\Users\baris\source\repos\dibeq-mvc\obj\Debug\dibeq_mvc.Migrations.BirthdateAddedToCustomer.resources
 C:\Users\baris\source\repos\dibeq-mvc\obj\Debug\dibeq_mvc.Migrations.NewPorpsToMembershipType.resources
 C:\Users\baris\source\repos\dibeq-mvc\obj\Debug\dibeq_mvc.Migrations.NewPorpsToMembershipTypes.resources
+C:\Users\baris\source\repos\dibeq-mvc\obj\Debug\dibeq-mvc.csproj.GenerateResource.cache
+C:\Users\baris\source\repos\dibeq-mvc\obj\Debug\dibeq-mvc.csproj.CopyComplete
+C:\Users\baris\source\repos\dibeq-mvc\obj\Debug\dibeq-mvc.dll
+C:\Users\baris\source\repos\dibeq-mvc\obj\Debug\dibeq-mvc.pdb
+C:\Users\baris\source\repos\dibeq-mvc\obj\Debug\dibeq_mvc.Migrations.empty.resources
